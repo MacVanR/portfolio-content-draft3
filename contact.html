@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-N5589KL09E"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Data());
+	gtag('config', 'G-N5589KL09E');
+</script>
+	<title>Club Basketball</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/favicon.gif">
+	<link rel="stylesheet" href="css/html5reset.css">
+	<link rel="stylesheet" href = "css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Red+Hat+Mono:wght@300&family=Roboto:wght@700&family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<a class = "skip" href = '#main'> Skip to Main Content</a>
+	<header>
+		<nav>
+			<ul>
+                <li><a href = "index.html">Umich Club Bball</a></li>
+				<li><a href = "team.html">Team</a></li>
+				<li><a href = "players.html">Players</a></li>
+				<li><a href = "schedule.html">Schedule</a></li>
+                <li class="active"><a href = "contact.html" >Contact Us</a></li>
+				
+			</ul>
+		</nav>
+		<h1>Let Us Get To Know You!</h1>
+	</header>
+	<br>
+	<br>
+
+	<main id ="main">
+		<p>
+            Fill out the form below to give us some basketball background on yourself and to join 
+            our email list! Once you have added your email we will reach out with pick up game opportunities
+            and make sure you are aware of important dates.
+        </p>
+        <br>
+        <br>
+
+    </main>
+    </body>
+    <form action="https://formspree.io/f/xeqnzggy"
+method="POST">
+	<fieldset> 
+		<legend>Personal Information:</legend>
+        <br>
+        <br>
+		<label for="name">Name</label>
+			<input type="text" name = "name" id = "name"><br/>
+        <br>
+        <label for="email">Email</label>
+			<input type="text" name = "email" id = "email"><br/>
+        <br>
+		<label> Position: 
+			<input type="text" name = "position" id = "position">
+		</label><br/>
+        <br>
+		<label> Height: 
+			<input type="text" name = "height" id = "height">
+		</label><br/>
+        <br>
+		<label for="weight">Weight:</label>
+		<input type="text" name = "weight" id = "weight"><br>
+        <br>
+		<input type = "submit" value = "Save!">
+	</fieldset>
+</form> 
+</html>
